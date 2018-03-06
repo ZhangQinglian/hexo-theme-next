@@ -37,6 +37,7 @@ favicon:
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
 
+use_motion: true
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -45,7 +46,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2016
 
   # Icon between year and copyright info.
   icon: user
@@ -97,9 +98,9 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  schedule: /schedule/ || calendar
-  sitemap: /sitemap.xml || sitemap
-  commonweal: /404/ || heartbeat
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+  commonweal: /404.html || heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -242,9 +243,9 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
-#wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
+reward_comment: 如文章对您有所帮助，可以请作者喝杯 🍵
+wechatpay: /images/wechatpay.JPG
+alipay: /images/alipay.JPG
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -277,7 +278,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
